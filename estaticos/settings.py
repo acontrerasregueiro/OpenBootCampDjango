@@ -121,8 +121,8 @@ STATIC_URL = '/static/'
 
 #Tenemos que añadir estos directorios para que pueda leer los ficheros estaticos
 STATICFILES_DIRS = [
-    BASE_DIR/"static",
-    '/var/www/static'                    
+    BASE_DIR/"static",   # directorio de donde lee los ficheros estaticos
+    '/var/www/static'    # sera el directorio para despliegue                
 ]
 
 # Default primary key field type
