@@ -119,6 +119,7 @@ USE_TZ = True
 # Se colocarán en esta ruta
 STATIC_URL = '/static/'
 
+#Tenemos que añadir estos directorios para que pueda leer los ficheros estaticos
 STATICFILES_DIRS = [
     BASE_DIR/"static",
     '/var/www/static'                    
